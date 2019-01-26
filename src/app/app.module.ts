@@ -5,6 +5,9 @@ import {FormsModule} from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { GreeterComponent } from './greeter/greeter.component';
+import { HeaderModule } from './header/header.module';
+import { MainModule } from './main/main.module';
+import { FooterModule } from './footer/footer.module';
 
 @NgModule({
   declarations: [
@@ -12,6 +15,9 @@ import { GreeterComponent } from './greeter/greeter.component';
     GreeterComponent
   ],
   imports: [
+    HeaderModule,
+    MainModule,
+    FooterModule,
     BrowserModule,
     FormsModule
   ],

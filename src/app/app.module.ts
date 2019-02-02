@@ -9,6 +9,7 @@ import { HeaderModule } from './header/header.module';
 import { MainModule } from './main/main.module';
 import { FooterModule } from './footer/footer.module';
 import { StudentsModule } from './students/students.module';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { StudentsModule } from './students/students.module';
     FooterModule,
     BrowserModule,
     FormsModule,
-    StudentsModule
+    StudentsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
